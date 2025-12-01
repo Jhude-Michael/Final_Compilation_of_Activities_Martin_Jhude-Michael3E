@@ -1,0 +1,142 @@
+/* Don't Modify */
+:root {
+  --clr-base-400: #5e5e5e;
+  --clr-base-500: #494949;
+
+  --clr-ui-300: #f8e2ff;
+  --clr-ui-400: #580d3a;
+  --clr-ux-300: #e2ffea;
+  --clr-ux-400: #115926;
+  --clr-dev-300: #e2fcff;
+  --clr-dev-400: #024f4f;
+
+  --clr-accent-400: #7e47c5;
+
+  --ff-accent: "Podkova", serif;
+  --ff-base: "Open Sans", sans-serif;
+
+  --fs-300: 0.75rem;
+  --fs-400: 1rem;
+  --fs-500: 2rem;
+
+  --fw-400: 400;
+  --fw-700: 700;
+
+  --shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.1);
+  --border-radius: 0.75rem;
+}
+
+/* /////////////////
+     Layout related
+     no need to touch any of this
+  //////////////////*/
+
+/* Don't Modify */
+
+/* Start Here */
+
+* {
+  padding: 0;
+  margin: auto;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.body {
+  margin: auto;
+}
+
+.candidates {
+  margin: 1rem;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  width: 33rem;
+  box-shadow: var(--shadow);
+}
+
+.candidate {
+  display: flex;
+}
+
+.images {
+  border-radius: 0.75rem;
+}
+
+h2 {
+  font-family: "Podkova", serif;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+}
+
+.ui-design,
+.ux-design,
+.developer {
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+  margin-right: 1rem;
+  padding: 0.2rem 1.1rem;
+  border-radius: 100px;
+  font-weight: bold;
+}
+
+.ui-design {
+  background-color: #f8e2ff;
+  color: #580d3a;
+}
+
+.ux-design {
+  background-color: #e2ffea;
+  color: #115926;
+}
+
+.developer {
+  background-color: #e2fcff;
+  color: #024f4f;
+}
+
+.roles {
+  padding-left: 2rem;
+}
+
+.name,
+.bio {
+  color: #494949;
+}
+
+.bio {
+  font-size: 1rem;
+  padding: 1rem 0;
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+}
+
+li {
+  margin-right: 1rem;
+  list-style: none;
+}
+.btn {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  margin-right: 1rem;
+  background-color: #7e47c5;
+  color: white;
+  padding: 0.8rem 3rem;
+  border-radius: 0.75rem;
+  text-decoration: none;
+  justify-content: flex-end;
+  font-weight: bold;
+}
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
